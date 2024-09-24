@@ -32,7 +32,6 @@ function historyContainer(donationArea, title){
 // common function end
 
 
-
 document.getElementById('btn-doante-1').addEventListener('click', function(){
 
     const donationNoakhali = getInputFieldValueById('donation-amount-noakhali')
@@ -43,7 +42,7 @@ document.getElementById('btn-doante-1').addEventListener('click', function(){
         alert('Please enter a valid amount..')
         return
     }
-
+    
     const newAmount = donationNoakhali + totalForNoakhali
     const newBalance = BalanceTop - donationNoakhali
 
